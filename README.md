@@ -7,7 +7,7 @@ This project is a clone of AIRBNB using NextJS 13
 NextJS 13 and MongoDB
 
 ## Prerequisites: 
-Node
+NodeJS, npm, cloudinary account, mongodb account and configurations of google and github for SSO(Single Sign-On)
 
 ## Plugins used:
 Node: https://nodejs.org/en/download/package-manager<br />
@@ -31,15 +31,15 @@ world countries: https://www.npmjs.com/package/world-countries<br />
 
 ## To run the project
 1. Clone the app: git clone https://github.com/siuols/Chat-app-react-django.git
-2. Create cloudinary and MongoDB account
+2. Create Cloudinary, MongoDB and Google Cloud account
 3. setup environment variables (.env)
-  - DATABASE_URL=
-    GITHUB_ID=
-    GITHUB_SECRET=
-    GOOGLE_CLIENT_ID=
-    GOOGLE_CLIENT_SECRET=
-    NEXTAUTH_SECRET=
-    NEXT_PUBLIC_CLOUDINARY_CLOUD_NAME=
+  - DATABASE_URL=<from mongoDB>
+    GITHUB_ID=<github OAuth>
+    GITHUB_SECRET=<github OAuth>
+    GOOGLE_CLIENT_ID=<google OAuth>
+    GOOGLE_CLIENT_SECRET=<google OAuth>
+    NEXTAUTH_SECRET="NEXTAUTH_SECRET"
+    NEXT_PUBLIC_CLOUDINARY_CLOUD_NAME=<cloudinary name>
 4. Install dependencies ```bash $ npm i ```
 5. Run server ```bash $ npm run dev ```
     
