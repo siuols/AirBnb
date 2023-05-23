@@ -4,8 +4,7 @@
 This project is a clone of AIRBNB using NextJS 13
 
 ## Technology Stack
-Backend: MongoDB <br />
-Frontend: NextJS 13
+NextJS 13 and MongoDB
 
 ## Prerequisites: 
 Node
