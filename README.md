@@ -36,13 +36,13 @@ world countries: https://www.npmjs.com/package/world-countries<br />
 1. Clone the app: git clone https://github.com/siuols/AirBnb.git
 2. Create Cloudinary, MongoDB and Google Cloud account
 3. setup environment variables (.env)
-  - DATABASE_URL=<from mongoDB>
-    GITHUB_ID=<github OAuth>
-    GITHUB_SECRET=<github OAuth>
-    GOOGLE_CLIENT_ID=<google OAuth>
-    GOOGLE_CLIENT_SECRET=<google OAuth>
-    NEXTAUTH_SECRET="NEXTAUTH_SECRET"
-    NEXT_PUBLIC_CLOUDINARY_CLOUD_NAME=<cloudinary name>
+  - DATABASE_URL=<from mongoDB><br />
+    GITHUB_ID=<github OAuth><br />
+    GITHUB_SECRET=<github OAuth><br />
+    GOOGLE_CLIENT_ID=<google OAuth><br />
+    GOOGLE_CLIENT_SECRET=<google OAuth><br />
+    NEXTAUTH_SECRET="NEXTAUTH_SECRET"<br />
+    NEXT_PUBLIC_CLOUDINARY_CLOUD_NAME=<cloudinary name><br />
 4. Install dependencies ```bash $ npm i ```
 5. Run server ```bash $ npm run dev ```
     
