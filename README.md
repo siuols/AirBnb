@@ -3,6 +3,9 @@
 # Description
 This project is a clone of AIRBNB using NextJS 13
 
+# Demo
+https://windbnb-olive-theta.vercel.app/trips
+
 ## Technology Stack
 NextJS 13 and MongoDB
 
@@ -30,7 +33,7 @@ react-spinners: https://www.davidhu.io/react-spinners/<br />
 world countries: https://www.npmjs.com/package/world-countries<br />
 
 ## To run the project
-1. Clone the app: git clone https://github.com/siuols/Chat-app-react-django.git
+1. Clone the app: git clone https://github.com/siuols/AirBnb.git
 2. Create Cloudinary, MongoDB and Google Cloud account
 3. setup environment variables (.env)
   - DATABASE_URL=<from mongoDB>
