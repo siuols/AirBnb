@@ -4,7 +4,8 @@ import EmptyState from '@components/EmptyState'
 import getListings, { IListingsParams } from './actions/getListing'
 import ListingCard from '@components/listings/ListingCard'
 import getCurrentUser from './actions/getCurrentUser'
-import { SafeListing } from './types'
+
+export const dynamic = 'force-dynamic'
 
 interface HomeProps {
   searchParams: IListingsParams
